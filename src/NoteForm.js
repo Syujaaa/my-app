@@ -108,7 +108,7 @@ function NoteForm() {
                         </div>
 
                         <div className='mb-3'>
-                            <label className=''>Jumlah Item: </label>
+                            <label className=''>Jumlah: </label>
                             <button type="button" onClick={handleSubtract} className='btn btn-outline-danger me-3'>-</button>
                             <span>{count}</span>
                             <button type="button" onClick={handleAdd} className='btn btn-outline-success ms-3'>+</button>
